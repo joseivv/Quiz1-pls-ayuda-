@@ -1,0 +1,10 @@
+body {
+  height: 3000px;
+  background: linear-gradient(141deg, #2d3436 13%, #0984e3 51%, #55efc4 75%);
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
