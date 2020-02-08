@@ -188,3 +188,75 @@ a {
 .bananas {
   width: 10%;
 }
+.grid2{
+  position: relative;
+  width: 100%;
+	padding: 1em;
+	margin: auto;
+}
+
+.grid2 h2{
+	text-align: center;
+	text-transform: uppercase;
+  color: white;
+  background-color: orangered;
+  border-radius: 50px;
+}
+
+#Contacto input[type="text"],#Contacto input[type="email"], #Contacto textarea{
+	display: block;
+	padding: 10px;
+	margin: 10px auto;
+	width: 100%;
+	font-size: 18px;
+  border: 1px;
+}
+
+#Contacto textarea{
+	font-size: 16px;
+}
+
+#Contacto textarea{
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 180px;
+	min-height: 180px;
+}
+
+#Contacto .send-button{
+	text-align: center;
+}
+
+#Contacto .send-button button[type="button"]{
+	color: #fff;
+  background: orangered;
+  border: none;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 20px;
+	text-transform: uppercase;
+  cursor: pointer;
+}
+
+.grid3{
+
+  display: grid;
+  justify-content: center;
+
+}
+.cosa11{
+  grid-column: 1/2;
+  align-items: center;
+  display: relative;
+}
+.cosa2{
+  grid-column: 2/3;
+  align-items: center;
+  display: relative;
+
+}
+.cosa3{
+  grid-column: 3/4;
+  align-items: center;
+  display: relative;
+}
