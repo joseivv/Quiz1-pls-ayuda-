@@ -54,7 +54,7 @@ a {
 }
 #Acerca{
   padding-top: 30px;
-  padding-left: 40px;
+  padding-left: 20px;
   display: flex;
   width: 100%;
   height: 100vh;
@@ -79,6 +79,39 @@ a {
   height: 100vh;
   background-color: rgba(255,0,153,0.2)
 }
+
+.grid{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  
+}
+
+.item1{
+  background-color: rgba(204,255,51,0.2);
+  align-items: center;
+  display: relative;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+}
+.item2{
+  background-color: rgba(51,0,51,0.9);
+  align-items: center;
+  display: relative;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+}
+.item3{
+  background-color: rgba(265, 77, 29, 0.48);
+  align-items: center;
+  display: relative;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+}
+
 #Habilidades{
   display: flex;
   justify-content: center;
